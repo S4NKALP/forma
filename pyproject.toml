@@ -1,0 +1,11 @@
+[project]
+name = "mine"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "fabric",
+    "tomlkit>=0.15.1",
+]
+
+[tool.uv.sources]
+fabric = { git = "https://github.com/Fabric-Development/fabric.git" }
