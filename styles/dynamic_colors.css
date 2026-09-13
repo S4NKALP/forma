@@ -1,0 +1,56 @@
+:vars {
+  /* material base — consumed by config/theme.py dynamic palette */
+  --foreground: #f0dedd;
+  --background: #1a1111;
+  --cursor: #f0dedd;
+  --primary: #ffb3b2;
+  --on-primary: #561d20;
+  --secondary: #e6bdbb;
+  --on-secondary: #442929;
+  --tertiary: #e4c18d;
+  --on-tertiary: #422c05;
+  --surface: #1a1111;
+  --surface-bright: #423736;
+  --error: #ffb4ab;
+  --error-dim: #000000;
+  --on-error: #690005;
+  --error-container: #93000a;
+  --outline: #a08c8b;
+  --shadow: #000000;
+  --red: #ffb3ad;
+  --red-dim: #000000;
+  --green: #b7d085;
+  --green-dim: #000000;
+  --yellow: #dec56e;
+  --yellow-dim: #000000;
+  --blue: #cebdfe;
+  --blue-dim: #000000;
+  --magenta: #fcb0d5;
+  --magenta-dim: #000000;
+  --cyan: #84d5c4;
+  --cyan-dim: #000000;
+  --white: #82d3e0;
+
+  /* forma accent ramp — vermillion seed rebuilt from the material scheme */
+  --on-glow: #ffdad9;
+  --verm-lit: #ffb3b2;
+  --verm: #e6bdbb;
+  --verm-deep: #e4c18d;
+  --verm-dim: #733334;
+  --verm-dim-deep: #524343;
+  --flame-core: #ffdad9;
+  --flame-glow: #ffb3b2;
+  --today-warm: #ffdad9;
+
+  /* forma surface / text tones */
+  --card-top: #423736;
+  --card-bot: #140c0c;
+  --tile-bg: #271d1d;
+  --border: #524343;
+  --cream: #f0dedd;
+  --icon-dim: #d7c1c1;
+  --subtle: #d7c1c1;
+  --dim: #a08c8b;
+  --faint: #524343;
+  --ghost: #322827;
+}

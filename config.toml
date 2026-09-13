@@ -1,0 +1,80 @@
+# forma configuration — auto-generated on first run.
+# Edit values below; changes are hot-reloaded at runtime.
+# Run `fabric-cli execute forma "generate_config()"` to recreate.
+
+# ── General ─────────────────────────────────────────────────
+[general]
+
+dnd = false  # Global do-not-disturb
+reduceMotion = false  # Scale all animation durations x0.4
+autoHide = false  # Hide pill when a window overlaps
+pillOpacity = 1.0  # 0.0 – 1.0
+pillBlur = true  # Layer blur behind pill
+unloadSec = 60  # Memory-saver cooldown after surface close
+
+# ── Display ─────────────────────────────────────────────────
+[display]
+
+time12h = true  # Use 12-hour clock
+clockSeconds = false  # Show seconds tick
+mainDisplay = "floating"  # floating | classic | system | attached
+uiScale = 1.0  # Global scale factor
+topGap = 12  # Gap from top of screen (px)
+
+# ── Theme ───────────────────────────────────────────────────
+[theme]
+
+paletteMode = "dark"  # dark | light | dynamic
+
+# ── Wallpaper ───────────────────────────────────────────────
+[wallpaper]
+
+wallpaperDir = ""  # Wallpaper folder (empty = ~/Pictures/Wallpapers)
+wallpaperFit = "center"  # cover | contain | center
+randomScope = ""  # Random wallpaper scope
+
+# ── Recording ───────────────────────────────────────────────
+[recording]
+
+recordCountdown = 3  # Seconds before recording starts
+recordDir = "~/Videos/Recordings"  # Recording output directory
+recordFps = 60  # Recording frame rate
+recordQuality = "medium"  # medium | high | ultra | lossless
+recordCursor = true  # Capture cursor in recording
+recordMic = false  # Capture microphone audio
+recordDesktop = false  # Capture desktop audio
+recordClearedBefore = 0  # Watermark for clearing recent recordings
+
+# ── Colors ──────────────────────────────────────────────────
+[colors]
+
+foreground = "#dee4e1"
+background = "#0e1513"
+cursor = "#dee4e1"
+primary = "#83d5c6"
+onPrimary = "#003730"
+secondary = "#b1ccc5"
+onSecondary = "#1c3530"
+tertiary = "#accae5"
+onTertiary = "#133348"
+surface = "#0e1513"
+surfaceBright = "#343b39"
+error = "#ffb4ab"
+errorDim = "#000000"
+onError = "#690005"
+errorContainer = "#93000a"
+outline = "#899390"
+shadow = "#000000"
+red = "#ffb595"
+redDim = "#000000"
+green = "#95d5a7"
+greenDim = "#000000"
+yellow = "#b8cf84"
+yellowDim = "#000000"
+blue = "#afc6ff"
+blueDim = "#000000"
+magenta = "#e4b7f3"
+magentaDim = "#000000"
+cyan = "#81d5cd"
+cyanDim = "#000000"
+white = "#82d3e0"
